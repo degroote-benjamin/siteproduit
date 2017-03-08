@@ -16,7 +16,7 @@ body {
 
 header
 {
-  background-color: #095EB3;
+  background-color: #007EA7;
   text-align: center;
   width: 100%;
   display: inline-block;
@@ -30,7 +30,6 @@ h1
 header li
 {
   display: inline-block;
-  border: 1px groove #cbcefb;
   font-size: 1.5em;
   margin-top: 1.5em;
   margin-right: 0.5em;
@@ -50,7 +49,7 @@ ul a:hover /* Apparence au survol des liens */
 
 .main
 {
-  background-color: #D7B6FF;
+  background-color:#D8E1FF;
   min-height:48em;
   width: 100%;
   display: inline-block;
@@ -98,7 +97,7 @@ ul a:hover /* Apparence au survol des liens */
 footer {
 	display : table-row;
 	height:5em;
-  background-color: blue;
+  background-color: black;
 }
 
 footer nav li
@@ -108,7 +107,37 @@ footer nav li
   margin-top: 2em;
 }
 
+footer nav a
+{
+color:white;
+}
+
 .left
 {
   margin-left: 30em;
+}
+
+.produitmsi /* main img from produit.html*/
+{
+  height: 15em;
+  width: 15em;
+}
+
+.little
+{
+  height: 2.5em;
+  width:2.5em;
+  margin-left: 0.5em
+}
+
+.textreduct
+{
+  font-size: 0.7em;
+  color: grey;
+}
+
+.description img
+{
+  margin-top: 1em;
+  margin-right: 1em;
 }
