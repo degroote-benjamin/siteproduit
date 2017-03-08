@@ -18,3 +18,21 @@ h1
 {
   margin-top: 1em;
 }
+
+section
+{
+  background-color: red;
+  height:45em;
+  display: inline-block;
+  width: 100%;
+}
+
+.produit
+{
+  background-color: purple;
+  display: block;
+  margin-top: 2em;
+  width: 50%;
+  margin-left: 25em;
+  height: 12em;
+}
