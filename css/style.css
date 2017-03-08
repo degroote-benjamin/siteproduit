@@ -5,6 +5,15 @@
   border:0;
 }
 
+html, body {
+	height: 100%;
+}
+
+body {
+	display : table;
+	width: 100%;
+}
+
 header
 {
   background-color: blue;
@@ -31,40 +40,67 @@ header li
   margin-right: 0.5em;
 }
 
-a
+ul a
 {
   text-decoration: none;
   color: black;
 }
 
-a:hover /* Apparence au survol des liens */
+ul a:hover /* Apparence au survol des liens */
 
 {
    text-decoration: underline;
 }
 
-section
+.main
 {
-  background-color: red;
-  height:45em;
-  display: inline-block;
+  background-color: #D7B6FF;
+  min-height:48em;
   width: 100%;
+  display: inline-block;
 }
 
 .produit
 {
-  background-color: purple;
-  display: block;
-  margin-top: 2em;
-  width: 50%;
+  background-color: white;
+  display:block;
+  margin-top: 1em;
   margin-left: 30em;
-  height: 12em;
+  width: 43%;
 }
 
-footer
+.img , .description
 {
-  position: absolute;
-  bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.description
+{
+    width: 30em;
+}
+
+.description h2
+{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.description p
+{
+  margin-top: 5em;
+}
+
+.description a
+{
+  text-align: right;
+  margin-top: 2em;
+  display: block;
+}
+
+
+footer {
+	display : table-row;
+	height:5em;
   background-color: blue;
-  height:7em;
 }
