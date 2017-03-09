@@ -5,11 +5,13 @@
   border:0;
 }
 
-html, body {
+html, body
+{
 	height: 100%;
 }
 
-body {
+body
+{
 	display : table;
 	width: 100%;
 }
@@ -27,18 +29,21 @@ h1
   margin-top: 1em;
 }
 
-header li
+header li /* li from nav in header*/
 {
   display: inline-block;
   font-size: 1.5em;
   margin-top: 1.5em;
-  margin-right: 0.5em;
+  margin-right: 1em;
+  margin-bottom: 1.1em;
 }
 
-ul a
+header ul a /*ul a from header */
 {
   text-decoration: none;
-  color: black;
+  color: white;
+  padding: 1em;
+  background-color: #102087;
 }
 
 ul a:hover /* Apparence au survol des liens */
@@ -47,7 +52,7 @@ ul a:hover /* Apparence au survol des liens */
    text-decoration: underline;
 }
 
-.main
+.main /* main content from all page*/
 {
   background-color:#D8E1FF;
   min-height:48em;
@@ -55,7 +60,7 @@ ul a:hover /* Apparence au survol des liens */
   display: inline-block;
 }
 
-.produit
+.produit /*main article from index and produit*/
 {
   background-color: white;
   display:block;
@@ -64,29 +69,29 @@ ul a:hover /* Apparence au survol des liens */
   width: 55em;
 }
 
-.img , .description
+.img , .description /*section on main from index and produit.html*/
 {
   display: inline-block;
   vertical-align: top;
 }
 
-.description
+.description /* description from the product in index and produit.html*/
 {
     width: 30em;
 }
 
-.description h2
+.description h2 /* h2 from description*/
 {
   margin-top: 1em;
   text-align: center;
 }
 
-.description p
+.description p /* p from description */
 {
   margin-top: 5em;
 }
 
-.description a
+.description a /* link from description*/
 {
   text-align: right;
   margin-top: 2em;
@@ -94,25 +99,26 @@ ul a:hover /* Apparence au survol des liens */
 }
 
 
-footer {
+footer /* fix footer in the bot on the page*/
+{
 	display : table-row;
 	height:5em;
   background-color: black;
 }
 
-footer nav li
+footer nav li /* nav li from footer*/
 {
   display: inline-block;
   margin-right: 1em;
   margin-top: 2em;
 }
 
-footer nav a
+footer nav a /* nav a from footer*/
 {
 color:white;
 }
 
-.left
+.left /* margin on the first item for center */
 {
   margin-left: 30em;
 }
@@ -123,20 +129,20 @@ color:white;
   width: 15em;
 }
 
-.little
+.little /* galery in produit.html */
 {
   height: 2.5em;
   width:2.5em;
   margin-left: 0.5em
 }
 
-.textreduct
+.textreduct /*reduct text in produit.html*/
 {
   font-size: 0.7em;
   color: grey;
 }
 
-.description img
+.description img /*margin in img from description*/
 {
   margin-top: 1em;
   margin-right: 1em;
