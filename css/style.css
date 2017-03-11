@@ -14,7 +14,14 @@ body
 {
 	display : table;
 	width: 100%;
-    background-color:#D8E1FF;
+  background-color:#D8E1FF;
+}
+
+.imag
+{
+  height: 150px;
+  width: 150px;
+  float: left;
 }
 
 header
@@ -35,7 +42,7 @@ header li /* li from nav in header*/
   display: inline-block;
   font-size: 1.5em;
   margin-top: 1.5em;
-  margin-right: 1em;
+  margin-right: 1.4em;
   margin-bottom: 1.1em;
 }
 
